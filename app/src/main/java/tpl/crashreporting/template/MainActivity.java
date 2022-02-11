@@ -11,4 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void onButtonClick(android.view.View view) {
+        // TODO crash the app here
+    }
 }
