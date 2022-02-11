@@ -25,8 +25,8 @@ adb shell input tap $coords
 # Sleep some time (expecting that information is sent to the server)
 sleep 3
 
-# Close Android message about the crash
-adb shell input tap 500 1300
+# Close Android message about the crash by clicking outside it
+adb shell input tap 500 500
 
-# Sleep some time (expecting that information is sent to the server)
-sleep 3
+# Wait few seconds to wait until report is sent
+sleep 12
